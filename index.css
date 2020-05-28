@@ -1,0 +1,548 @@
+
+/* 雪梨在线 css */
+/* top */
+.top{
+	width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 29px;
+}
+.fl{
+	float: left;
+}
+.top2{
+	float: right;
+}
+.top1 li{
+	float: left;
+
+}
+.top1 p{
+
+	text-align: center;
+	height: 39px;
+	line-height: 39px;
+	font-size:40px;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	margin-right: 79px;
+	margin-top: 33px;
+}
+.top1 a{
+
+	height:18px;
+	font-size:18px;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	margin-right: 26px;
+	padding: 10px;
+
+}
+.top1 a:hover{
+	border-bottom: #00A4FF solid 1px; 
+}
+.top1 ul{
+	margin-top: 42px;
+}
+form{
+	margin-top: 31px;
+	float: right;
+	
+}
+.search{
+	float: left;
+	width:359px;
+	height:38px;
+	margin-left: 151px;
+	padding-left: 19px;
+	border: 1px solid rgba(0,164,255,1);
+}
+.submit{
+	float: left;
+	width:50px;
+	height:40px;
+	background:rgba(0,164,255,1) url('img/fa-search.png') no-repeat center center;
+	border: 1px solid rgba(0,164,255,1);
+	
+}
+.top2{
+	height:12px;
+	font-size:14px;
+	font-weight:400;
+	margin-top: 44px;
+	font-size: 14px;
+}
+.top2 a{
+	color: rgba(102, 102, 102, 1);
+}
+/* 黑色背景  banner */
+.banner{
+	height:420px;
+	background:rgba(28,3,108,1) url('img/banner2.png') no-repeat center center;
+	
+
+} 
+.banner .contenter{
+	width: 1200px;
+	text-align: left;
+	margin: 0 auto;
+	height: 420px;
+}
+.black{
+
+	width:190px;
+	height:420px;
+	background:rgba(0,0,0,0.3);
+	
+	
+}
+.banner .black li{
+	margin-bottom: 25px;
+	font-size:14px;
+	margin-left: 20px;
+	font-weight:400;
+	
+	
+}
+.banner .black a{
+	color: rgba(255, 255, 255, 1);
+
+}
+.banner .black a:hover{
+	color: rgba(0, 180, 255, 1);
+}
+.li1{
+	margin-top: 25px;
+}
+
+
+
+/* nav */
+.navbg{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 8px; 
+}
+
+.nav .contenter{
+	/* padding-top: 8px;  */
+	text-align: center;
+	margin: 0 auto;
+	width:1200px;
+	height:60px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	
+}
+.nav .contenter ul{
+	float: left;
+}
+.nav .contenter li{
+	float: left;
+	
+	padding-right: 35px;
+	padding-left: 35px;
+	margin-top: 21px;
+	text-align: center;
+	border-right: 1px solid black;
+}
+.nav li a{
+
+	font-size:16px;
+	/* font-weight:bold; */ 
+	
+}
+.navbg a{
+	color: rgba(5, 5, 5, 1);
+}
+#heihei{
+	padding-left: 34px;
+}
+#heihei a{
+	color: rgba(0, 164, 255, 1);
+	font-weight:bold;
+}
+.nav .contenter>a{
+	float: right;
+	margin-right: 61px;
+	color: rgba(0, 164, 255, 1);
+	margin-top: 21px;
+}
+
+/* 精品推荐 */
+.middle{
+	text-align: center;
+	margin: 0 auto; 
+	width: 1200px;
+	
+}
+.middle1 {
+	float: left;
+	margin-top: 37px;
+	text-align: left;
+	font-size:20px;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+	margin-bottom:21px; 
+}
+.middle2 {
+	float: right;
+	margin-right: 38px;
+}
+.middle2 a{
+	float: right;
+	margin-top: 38px;
+	/* 如果写31的话，看起来有点不和谐 因此我改成了38px */
+	margin-bottom: 20px;
+	font-size:12px;
+	font-weight:400;
+
+	color:rgba(165,165,165,1);
+}
+
+.bg{
+	background: rgba(230, 230, 230, 0.3)
+}
+.jingpin{
+	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
+
+}
+.jingpin li{
+	position: relative;
+	float: left;
+	margin-right: 15px; 
+	margin-bottom: 15px;
+	background: rgba(255, 255, 255, 1.0);
+	width:228px;
+	height:270px;
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+	
+}
+
+.jingpin .special{
+	margin-right:0px; 
+}
+
+.jingpin li img{
+	width: 228px;
+	height: 155px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.over{
+	width:185px;
+	height:34px;
+	font-size:14px;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+	text-align: left;
+	top: 179px;
+	position: absolute;
+	left: 23px;
+
+}
+.off{
+	width:119px;
+	height:13px;
+	font-size:12px;
+	font-weight:400;
+	
+	position: absolute;
+	text-align: center;
+	left: 23px;
+	bottom: 26px;
+	color:rgba(96, 96, 96, 1);
+}
+.off span{
+	color:rgba(255,124,45,1);
+}
+
+/* 前端开发工程师 */
+
+.qianduanbegin{
+	margin: 0 auto;
+	text-align: center;
+	width: 1200px;
+}
+.qianduanbegin .qianduan1{
+	font-size:20px;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+	padding-top: 22px;
+	float: left;
+	margin-bottom: 21px;
+}
+.qianduanbegin .list{
+	float: left;
+	padding-left:221px; 
+	margin-top: 26px;
+	
+}
+.qianduanbegin .list li{
+	float: left;
+	text-align: center;
+}
+.qianduanbegin .list a{
+	color: rgba(134, 134, 134, 1);
+	font-size:16px;
+	font-weight:400;
+	padding-left: 70px;
+
+}
+
+.qianduanbegin .list a:hover{
+	color: #00A4FF;
+}
+.qianduan2{
+	float: right;
+	margin-right: 38px;
+	margin-top: 28px;
+	/* 为了看起来更和谐 */
+}
+.qianduan2 {
+	float: right;
+	
+	
+	font-size:12px;
+	font-weight:400; 
+	/* color:rgba(165, 165, 165, 1); */
+}
+.qianduan2 a{
+	color:rgba(165, 165, 165, 1);
+}
+
+/* 和前边的精品一样 */
+
+/* 牛人推荐 */
+.niu{
+	text-align: center;
+	margin: 0 auto; 
+	width: 1200px;
+	
+}
+.niu p{
+	float: left;
+	font-size:20px;
+	font-weight:400;
+	color:rgba(73,73,73,1);
+	margin-top: 20px;
+	/* 因为图片本身有下外边距 15px*/
+	margin-bottom: 33px;
+	text-align: left;
+	
+}
+
+
+/* 牛人推荐的内容 */
+
+.recommend{
+	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
+	padding-bottom: 73px;
+}
+.recommend .left{
+	width:471px;
+	height: 320px; 
+	position: relative;
+}
+.recommend .right{
+	float: right;
+}
+.recommend .right li{
+	float: left;
+	
+}
+.recommend .right li img{
+	width:228px;
+	height:320px;
+}
+.recommend .margin{
+	margin-right: 15px;
+}
+.recommend .left .graduate{
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(249,225,3,1);
+	line-height:30px; 
+	text-align: left;
+	position: absolute;
+	left: 25px;
+	top: 99px;
+}
+.recommend .left .turn{
+	font-size:28px;
+	
+	color:rgba(254,254,254,1);
+	line-height:30px; 
+	text-align: left;
+	position: absolute;
+	left: 25px;
+	bottom: 159px;
+}
+.recommend .left a{
+	height:14px;
+	font-size:13px;
+	font-weight:400;
+	color:rgba(249,225,3,1);
+	line-height:14px;
+	padding: 5px 18px;
+	border: 1px solid rgba(249,225,3,1);
+	position: absolute;
+	bottom: 121px;
+	left: 28px;
+}
+
+/* 右边 */
+.recommend .right li{
+	position: relative;
+	width:228px;
+	height:320px;
+}
+.recommend .right .black2{
+	width:228px;
+	height:122px;
+	background:rgba(0,0,0,0.5);
+	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.recommend .right .black2 .name{
+	width: 108px;
+	height:18px;
+	font-size:18px;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:18px;
+	position: absolute;
+	left: 29px;
+	top: 21px;
+	text-align: left;
+}
+.name span{
+	float: right;
+	font-size: 15px;
+}
+.recommend .right .introduce{
+	width:175px;
+	height:53px;
+	font-size:12px;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+	position: absolute;
+	left: 25px;
+	bottom: 18px;
+	text-align: left;
+}
+
+/* end*/
+.end{
+	width: 100%;
+	height:417px;
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+	background: rgba(255, 255, 255, 1.0)
+
+}
+.end .contenter2{
+	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
+	height: 417px;
+	position: relative;
+
+}
+.end .contenter2 .left2{
+	position: relative;
+}
+.end .contenter2 .left2 .logo{
+	
+
+	font-size:36px;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	
+	position: absolute;
+	top: 124px;
+	left: 0px;
+
+}
+
+.end .jieshi{
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	
+	position: absolute;
+	left: 0px;
+	top: 195px;
+}
+
+.end p a{
+	
+	font-size:16px;
+	font-weight:400;
+	color:rgba(0,164,255,1);
+	
+	position: absolute;
+	top: 240px;
+	left: 0px;
+	padding: 12px 30px 10px 27px;
+	border: 1px solid rgba(0,164,255,1);
+}
+
+/* 右边这三个东西 */
+.end .right{
+	position: relative;
+}
+.end .lf1{
+	position: absolute;
+	top: 130px;
+	right: 458px;
+}
+.end .fl2{
+	position: absolute;
+	top: 130px;
+	right: 220px;
+}
+.end .lf3{
+	position: absolute;
+	right: 0;
+	top: 130px;
+}
+.end .right2 li a{
+	font-size:12px;
+	font-family:SimSun;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	
+}
+.end .right2 li{
+	text-align: left;
+	/* margin-bottom: 0.5px; */
+}
+.end .right2 .main{
+	font-size:16px;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	margin-bottom: 6px;
+}
+a:hover{
+	color: rgba(0,164,255,1);
+}
+.right2 li a:hover{
+	color: rgba(0,164,255,1); 
+}
+
+
+
+
+
